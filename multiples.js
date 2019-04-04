@@ -4,7 +4,7 @@
  * @return {Number}
  */
 exports.sumOfAMultiple = function( n ) {
-  var sum = 0;
+  let sum = 0;
 
   // do your work here
   
