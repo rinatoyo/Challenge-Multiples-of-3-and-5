@@ -12,24 +12,27 @@ describe( 'Sum of a Multiple Function', function() {
   it( 'should return \'2318\' for n=100', function() {
     var sum = multiples.sumOfAMultiple( 100 );
     sum.should.equal( 2318 );
+
   });
 
   // when your tests pass, uncomment the next two and
   // change the expected value to your calculated result
-  /*
-  it( 'should return \'x\' for n=1000 (see multiples-spec.js)', function() {
+  
+  it( 'should return \'233168\' for n=1000 (see multiples-spec.js)', function() {
     var sum = multiples.sumOfAMultiple(1000);
 
     // Change the argument given to .equal() to the correct number
-    sum.should.equal(0);
+    // console.log(multiples.sumOfAMultiple(1000));
+    sum.should.equal(233168);
   });
 
-  it( 'should return \'x\' for n=10000 (see multiples-spec.js)', function() {
+  it( 'should return \'23331668\' for n=10000 (see multiples-spec.js)', function() {
     var sum = multiples.sumOfAMultiple(10000);
 
     // Change the argument given to .equal() to the correct number
-    sum.should.equal(0);
+  // console.log(multiples.sumOfAMultiple(10000));
+    sum.should.equal(23331668);
   });
-  */
+  
 
 });
